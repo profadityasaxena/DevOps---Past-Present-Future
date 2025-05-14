@@ -1,0 +1,54 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+db.sqlite3
+media/
+staticfiles/
+
+# dotenv environment variables
+.env
+.env.*
+
+# VSCode and other IDEs
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Docker artifacts
+*.tar
+*.img
+*.pid
+
+# GitHub Actions or CI secrets
+secrets.json
+
+# Test output
+coverage/
+htmlcov/
+*.cover
+*.py,cover
+
+# Pipenv
+Pipfile.lock
+
+# Terraform (if used later)
+*.tfstate
+*.tfstate.*
+.terraform/
