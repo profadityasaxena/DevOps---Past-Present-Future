@@ -51,3 +51,7 @@ This module outlines the planning and foundational decisions for the Library Man
 ### Monitoring & Logging
 - Google Cloud Monitoring
 - Google Cloud Logging
+
+## Architecture Diagram
+
+![Architecture Diagram](./ArchitectureDiagram.png)
