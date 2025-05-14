@@ -31,3 +31,23 @@ This module outlines the planning and foundational decisions for the Library Man
 
 5. **Web Interface**
    - Accessible UI for staff with basic authentication
+
+## Technology Stack
+
+### Backend
+- Django (Python)
+- SQLite (for development) / PostgreSQL (for production)
+
+### Frontend
+- Django Admin
+- Optional: Bootstrap/CSS for public-facing portal
+
+### DevOps & Deployment
+- GitHub Actions (CI)
+- Docker (Containerization)
+- Google Cloud Run (CD)
+- Google Artifact Registry
+
+### Monitoring & Logging
+- Google Cloud Monitoring
+- Google Cloud Logging
